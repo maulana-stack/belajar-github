@@ -1,0 +1,36 @@
+.notFound {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.notFound h1 {
+  font-size: 5em;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.notFound p {
+  font-size: 1.2em;
+  color: var(--text-color);
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+
+.notFound a {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+@media (max-width: 640px) {
+  .notFound {
+    padding: 40px 24px;
+  }
+
+  .notFound h1 {
+    font-size: 3em;
+  }
+}

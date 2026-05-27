@@ -1,0 +1,23 @@
+{
+  "name": "blog-nextjs",
+  "version": "1.0.0",
+  "description": "Blog built with Next.js and React",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^11.0.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
